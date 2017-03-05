@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.benjaminantell.takehomeassingment06_benjamina.MainActivity">
+    <EditText
+        android:id="@+id/subtotal"
+        style="@style/EditTextStyle"
+        android:hint="@string/subtotal"/>
+    <EditText
+        android:id="@+id/tax"
+        style="@style/EditTextStyle"
+        android:hint="@string/tax" />
+    <EditText
+        android:id="@+id/tip"
+        style="@style/EditTextStyle"
+        android:hint="@string/tip" />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/calc"
+        android:textSize="18sp"
+        android:onClick="submit" />
+</LinearLayout>

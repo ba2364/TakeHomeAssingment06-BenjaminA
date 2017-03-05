@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <string name="subtotal">Enter your subtotal</string>
+    <string name="tax">Enter the tax (decimal)</string>
+    <string name="tip">Enter the tip (decimal)</string>
+    <string name="calc">Calculate Total</string>
+</resources>
